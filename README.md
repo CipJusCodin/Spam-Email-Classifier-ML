@@ -38,12 +38,15 @@ nltk.download('stopwords')
 + Exploratory Data Analysis (EDA): Analyzing data distribution, word frequencies, and message characteristics helps in understanding the dataset better and identifying patterns.
 + Vectorization: Text data is transformed into numerical vectors using techniques like Bag of Words (BoW) or TF-IDF (Term Frequency-Inverse Document Frequency) to make it suitable for machine learning algorithms.
 + Model Building: Various classification algorithms are employed, and hyperparameter tuning is performed to optimize model performance.
+
+## User Interface and Interaction
+![Screenshot 2024-04-06 233925](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/434004e7-4eca-4833-8d76-fcf6c95da7d6)
+![Screenshot 2024-04-06 233906](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/3d4c2c04-6d70-47dc-88dc-5736a2392ca8)
+
 ## Conclusion
 + The Spam Classifier project demonstrates the effective utilization of machine learning techniques for spam detection.
 + The interactive web application allows users to easily classify messages as spam or not spam in real-time, enhancing user experience and productivity.
 + Continual improvements and updates can be made to the model to adapt to evolving spamming techniques and improve accuracy further.
 
-## User Interface and Interaction
-![Screenshot![Screenshot 2024-04-06 233925](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/fd1f8842-67e1-4750-87fa-796167afd011)
- 2024-04-06 233906](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/584c8d3c-b805-438a-bbc0-1de86260f8ec)
+
 
