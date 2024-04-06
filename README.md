@@ -42,3 +42,8 @@ nltk.download('stopwords')
 + The Spam Classifier project demonstrates the effective utilization of machine learning techniques for spam detection.
 + The interactive web application allows users to easily classify messages as spam or not spam in real-time, enhancing user experience and productivity.
 + Continual improvements and updates can be made to the model to adapt to evolving spamming techniques and improve accuracy further.
+
+## User Interface and Interaction
+![Screenshot![Screenshot 2024-04-06 233925](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/fd1f8842-67e1-4750-87fa-796167afd011)
+ 2024-04-06 233906](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/584c8d3c-b805-438a-bbc0-1de86260f8ec)
+
