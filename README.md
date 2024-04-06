@@ -5,11 +5,10 @@
 + ### Importance and relevance of the project
   With the increasing volume of unsolicited messages, such as spam emails and texts, it is crucial to have an efficient system that can automatically filter out such messages, saving time and resources for users.
 ## Key Features
-
-Preprocessing: Text cleaning, tokenization, removal of stopwords and punctuation, and stemming.
-Exploratory Data Analysis (EDA): Understanding the data distribution, visualizing word frequencies, and analyzing message characteristics.
-Model Building: Utilizing various classification algorithms including Naive Bayes, SVM, Decision Trees, etc.
-Deployment: Using Streamlit to create an interactive web application for real-time spam detection.
++ **Preprocessing:** Text cleaning, tokenization, removal of stopwords and punctuation, and stemming.
++ **Exploratory Data Analysis (EDA):** Understanding the data distribution, visualizing word frequencies, and analyzing message characteristics.
++ **Model Building:** Utilizing various classification algorithms including Naive Bayes, SVM, Decision Trees, etc.
++ **Deployment:** Using Streamlit to create an interactive web application for real-time spam detection.
 ## Dependencies
 
 1. **Python (>=3.6)** - Download and install Python from the official website (https://www.python.org/). Make sure to select the option to add Python to your PATH during installation.
