@@ -1,4 +1,4 @@
-# Spam-Email-Classifier-ML
+# Spam Email Classifier Using Machine Learning
 ## Introduction
 + ### Brief overview of the project
   The Spam Classifier is a machine learning model deployed to distinguish between spam and non-spam (ham) messages in emails or SMS.
