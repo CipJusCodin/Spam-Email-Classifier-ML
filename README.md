@@ -40,8 +40,8 @@ nltk.download('stopwords')
 
 
 # Achievements<a name="achievements"></a>
-+ Achieved an accuracy score of over 97% with the Random Forest classifier.
-+ Precision scores were consistently high across multiple models, with Multinomial Naive Bayes and Random Forest achieving perfect precision scores of 100%.
++ Achieved an **accuracy score of over 97%** with the Random Forest classifier.
++ Precision scores were consistently high across multiple models, with Multinomial Naive Bayes and Random Forest achieving **perfect precision scores of 100%**.
 + Implemented feature engineering techniques such as text preprocessing and exploratory data analysis for better model performance.
 + Successfully deployed the best performing model using Streamlit, allowing for easy usage and accessibility.
 
