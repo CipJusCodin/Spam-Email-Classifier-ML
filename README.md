@@ -10,7 +10,7 @@
 + [Achievements](#achievements)
 + [Feature Engineering](#feature_eng)
 + [Conclusion](#conclusion)
-+ [User Interface and Interaction](#UI)
++ [User Interface and Interaction](#ui)
 
 
 # Key Features<a name="features"></a>
@@ -59,7 +59,7 @@ nltk.download('stopwords')
 + Continual improvements and updates can be made to the model to adapt to evolving spamming techniques and improve accuracy further.
 
 
-# User Interface and Interaction<a name="UI"></a>
+# User Interface and Interaction<a name="ui"></a>
 ![Screenshot 2024-04-06 233925](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/434004e7-4eca-4833-8d76-fcf6c95da7d6)
 ![Screenshot 2024-04-06 233906](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/3d4c2c04-6d70-47dc-88dc-5736a2392ca8)
 
