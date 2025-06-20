@@ -1,66 +1,145 @@
-# Introduction
-+ ### Brief overview of the project
-  The Spam Classifier is a machine learning model deployed to distinguish between spam and non-spam (ham) messages in emails or SMS.
-+ ### Importance and relevance of the project
-  With the increasing volume of unsolicited messages, such as spam emails and texts, it is crucial to have an efficient system that can automatically filter out such messages, saving time and resources for users.
+# Spam Email Classifier
 
-## Jump To
-+ [Key Features](#features)
-+ [Dependencies](#dependencies)
-+ [Achievements](#achievements)
-+ [Feature Engineering](#feature_eng)
-+ [Conclusion](#conclusion)
-+ [User Interface and Interaction](#ui)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/)
+[![pandas](https://img.shields.io/badge/pandas-1.0%2B-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![numpy](https://img.shields.io/badge/numpy-1.18%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24%2B-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![nltk](https://img.shields.io/badge/nltk-3.5%2B-9F5C0D?logo=python&logoColor=white)](https://www.nltk.org/)
+[![seaborn](https://img.shields.io/badge/seaborn-0.11%2B-3776AB?logo=python&logoColor=white)](https://seaborn.pydata.org/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.2%2B-11557C?logo=python&logoColor=white)](https://matplotlib.org/)
+[![wordcloud](https://img.shields.io/badge/wordcloud-1.8%2B-46B5A8?logo=python&logoColor=white)](https://github.com/amueller/word_cloud)
+[![xgboost](https://img.shields.io/badge/xgboost-1.3%2B-AA0A0A?logo=python&logoColor=white)](https://xgboost.readthedocs.io/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
+---
 
-# Key Features<a name="features"></a>
-+ **Preprocessing:** Text cleaning, tokenization, removal of stopwords and punctuation, and stemming.
-+ **Exploratory Data Analysis (EDA):** Understanding the data distribution, visualizing word frequencies, and analyzing message characteristics.
-+ **Model Building:** Utilizing various classification algorithms including Naive Bayes, SVM, Decision Trees, etc.
-+ **Deployment:** Using Streamlit to create an interactive web application for real-time spam detection.
+## Table of Contents
 
- 
-# Dependencies<a name="dependencies"></a>
-1. **Python (>=3.6)** - Download and install Python from the official website (https://www.python.org/). Make sure to select the option to add Python to your PATH during installation.
-2. **pandas** - `pip install pandas`
-3. **numpy** - `pip install numpy`
-4. **scikit-learn** - `pip install scikit-learn`
-5. **nltk** - `pip install nltk`
-6. **seaborn** - `pip install seaborn`
-7. **matplotlib** - `pip install matplotlib`
-8. **streamlit** - `pip install streamlit`
-9. **wordcloud** - `pip install wordcloud`
-10. **xgboost** - `pip install xgboost`
-11. **NLTK Resources:** After installing NLTK, download required resources by running the following code in Python:
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Key Features](#key-features)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Achievements](#achievements)
+- [Feature Engineering](#feature-engineering)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Contributing](#contributing)
+
+---
+
+## Introduction
+
+The Spam Email Classifier leverages machine learning to distinguish between spam and non-spam (ham) messages in emails or SMS. With ever-increasing volumes of unsolicited messages, this project provides a robust and automated solution to filter out spam, improving user productivity and security.
+
+---
+
+## Project Structure
+
 ```
+Spam-Email-Classifier-ML/
+│
+├── Dataset/
+│   └── spam.csv
+├── README.md
+└── spam_classifier.ipynb
+```
+
+- **Dataset/spam.csv** — The main dataset used for training and testing the classifier.
+- **spam_classifier.ipynb** — Jupyter Notebook containing code for data exploration, preprocessing, model training, evaluation, etc.
+- **README.md** — Project documentation.
+
+---
+
+## Key Features
+
+- Text Preprocessing: Cleaning, tokenization, stopword & punctuation removal, stemming.
+- Exploratory Data Analysis (EDA): Visualization of data distribution and word frequencies.
+- Model Building: Implementation of Naive Bayes, SVM, Decision Trees, Random Forest, XGBoost, etc.
+- High Accuracy: Achieved over 97% accuracy with Random Forest; perfect precision with Random Forest & Naive Bayes.
+- Jupyter Notebook: Well-documented workflow for reproducibility.
+
+---
+
+## Dependencies
+
+- Python >= 3.6
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- seaborn
+- matplotlib
+- wordcloud
+- xgboost
+
+```sh
+pip install pandas numpy scikit-learn nltk seaborn matplotlib wordcloud xgboost
+```
+Additionally, download NLTK resources:
+```python
 import nltk
 nltk.download('punkt')
-nltk.download('stopwords') 
+nltk.download('stopwords')
 ```
 
+---
 
-# Achievements<a name="achievements"></a>
-+ Achieved an **accuracy score of over 97%** with the Random Forest classifier.
-+ Precision scores were consistently high across multiple models, with Multinomial Naive Bayes and Random Forest achieving **perfect precision scores of 100%**.
-+ Implemented feature engineering techniques such as text preprocessing and exploratory data analysis for better model performance.
-+ Successfully deployed the best performing model using Streamlit, allowing for easy usage and accessibility.
+## Getting Started
 
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/CipJusCodin/Spam-Email-Classifier-ML.git
+   cd Spam-Email-Classifier-ML
+   ```
 
-# Feature Engineering<a name="feature_eng"></a>
-+ Text Preprocessing: Lowercasing, tokenization, removal of stopwords and punctuation, and stemming are performed to clean and normalize the text data.
-+ Exploratory Data Analysis (EDA): Analyzing data distribution, word frequencies, and message characteristics helps in understanding the dataset better and identifying patterns.
-+ Vectorization: Text data is transformed into numerical vectors using techniques like Bag of Words (BoW) or TF-IDF (Term Frequency-Inverse Document Frequency) to make it suitable for machine learning algorithms.
-+ Model Building: Various classification algorithms are employed, and hyperparameter tuning is performed to optimize model performance.
+2. Install dependencies (see above).
 
+3. Open the notebook:
+   - Launch Jupyter and open `spam_classifier.ipynb` to explore the workflow, run experiments, or retrain models.
 
-# Conclusion<a name="conclusion"></a>
-+ The Spam Classifier project demonstrates the effective utilization of machine learning techniques for spam detection.
-+ The interactive web application allows users to easily classify messages as spam or not spam in real-time, enhancing user experience and productivity.
-+ Continual improvements and updates can be made to the model to adapt to evolving spamming techniques and improve accuracy further.
+---
 
+## Screenshots
 
-# User Interface and Interaction<a name="ui"></a>
+Below are screenshots of the user interface demonstrating the model in action:
+
 ![Screenshot 2024-04-06 233925](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/434004e7-4eca-4833-8d76-fcf6c95da7d6)
 ![Screenshot 2024-04-06 233906](https://github.com/CipJusCodin/Spam-Email-Classifier-ML/assets/112339466/3d4c2c04-6d70-47dc-88dc-5736a2392ca8)
 
+---
 
+## Achievements
+
+- 97%+ Accuracy with Random Forest classifier
+- 100% Precision with Multinomial Naive Bayes & Random Forest
+- Feature engineering for optimal model performance
+
+---
+
+## Feature Engineering
+
+- Lowercasing, tokenization, stopword/punctuation removal, stemming
+- Vectorization (BoW, TF-IDF)
+- EDA for pattern discovery and data understanding
+- Hyperparameter tuning for improved accuracy
+
+---
+
+## Conclusion
+
+The Spam Classifier demonstrates effective ML techniques for spam detection. The provided notebook allows for easy experimentation and continued learning and improvement.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
